@@ -17,6 +17,12 @@ void draw(){
 
   String course1 = "Comp Sci 10";//string for name of class
   
+  int w = 20;
+  
+  int l = 40;
+  
+  int h = 12;
+  
   fill(255,255,255);
   rect(100,100,200,100);//Begin drawing time table 
   
@@ -45,5 +51,26 @@ void draw(){
   text(course1, 310,170);//Fill with info using strings
   
   text(name1, 310, 150);
+  
+  text(course1, 310,270);
+  
+  text(name1, 310, 250);
+  
+  text(course1, 310,370);
+  
+  text(name1, 310, 350);
+  
+  text(course1, 310, 470);
+  
+  text(name1, 310, 450);
+  
+  text("Block 1", 110, 150);
+  
+  text("Block 2", 110, 250);
+  
+  text("Block 3", 110, 350);
+  
+  text("Block 4", 110, 450);
+  
   
 }
