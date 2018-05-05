@@ -23,6 +23,8 @@ void draw(){
   
   int h = 12;
   
+  background(255,255,255);//Background as rbg to make font cleaner
+  
   fill(255,255,255);
   rect(100,100,200,100);//Begin drawing time table 
   
@@ -72,5 +74,9 @@ void draw(){
   
   text("Block 4", 110, 450);
   
+  text("Room 215 contains approximately", 110, 550);
   
+  text(l * w * h, 320,550);
+  
+  text("cubic feet of air.", 355,550);
 }
